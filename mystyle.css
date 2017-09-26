@@ -3,6 +3,6 @@ body {
 	/*eventually include hovering over links to change their colour/font or something neat*/
 }
 
-#about:hover, #education:hover {
+.mainLinks:hover {
 	font-style: italic;
 }
