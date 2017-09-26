@@ -6,3 +6,19 @@ body {
 .mainLinks:hover {
 	font-style: italic;
 }
+
+a {
+	color:#FF0000;
+	}
+
+a:visited {
+	color:#00FF00;
+	}
+
+a:hover {
+	color:#FF00FF;
+	}
+	
+a:active {
+	color:#0000FF;
+}
