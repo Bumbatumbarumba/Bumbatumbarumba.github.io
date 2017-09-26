@@ -9,12 +9,12 @@ body {
 
 /*unvisited lnk*/
 a {
-	color:Black;
+	color:#000000;
 	}
 
 /*visited link*/
 a:visited {
-	color:Black;
+	color:#000000;
 	}
 
 /*hovering over the link*/
