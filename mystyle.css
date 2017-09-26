@@ -7,18 +7,22 @@ body {
 	font-style: italic;
 }
 
+/*unvisited lnk*/
 a {
-	color:#FF0000;
+	color:Black;
 	}
 
+/*visited link*/
 a:visited {
-	color:#00FF00;
+	color:Black;
 	}
 
+/*hovering over the link*/
 a:hover {
 	color:#FF00FF;
 	}
-	
+
+/*such as when you press and hold the link, but not click it*/
 a:active {
 	color:#0000FF;
 }
