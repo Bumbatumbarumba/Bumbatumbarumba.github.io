@@ -1,6 +1,11 @@
+/*
+Created by Bartosz Kosakowski
+09/22/17
+CSS for my rad website
+*/
+
 body {
 	background-color: #d5e1df;
-	/*eventually include hovering over links to change their colour/font or something neat*/
 }
 
 /*.mainLinks:hover {
@@ -8,6 +13,6 @@ body {
 }
 */
 
-#about:hover {
+#about:hover, #education:hover, #experience:hover, #skills:hover, #portfolio:hover, #linkedin:hover, #github:hover {
 	font-style:italic;
 }
