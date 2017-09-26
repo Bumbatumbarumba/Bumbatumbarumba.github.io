@@ -2,3 +2,7 @@ body {
 	background-color: #d5e1df;
 	/*eventually include hovering over links to change their colour/font or something neat*/
 }
+
+.mainLinks:hover {
+	font-style: italic;
+}
