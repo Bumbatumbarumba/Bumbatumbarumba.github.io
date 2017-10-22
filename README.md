@@ -1,2 +1,3 @@
 # Bumbatumbarumba.github.io
-Personal website 
+
+Visit at bartkosa.com or www.bartkosa.com
