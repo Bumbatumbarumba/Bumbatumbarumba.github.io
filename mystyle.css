@@ -8,11 +8,9 @@ body {
 	background-color: #d5e1df;
 }
 
-/*.mainLinks:hover {
+.links:hover {
 	font-style: italic;
 }
-*/
-/*test*/
-#about:hover, #education:hover, #experience:hover, #skills:hover, #portfolio:hover, #linkedin:hover, #github:hover {
+/*#about:hover, #education:hover, #experience:hover, #skills:hover, #portfolio:hover, #linkedin:hover, #github:hover {
 	font-style:italic;
-}
+}*/
