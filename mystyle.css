@@ -8,15 +8,18 @@ body {
 	background-color: #d5e1df;
 }
 
-/*.links:hover {
-	font-style: italic;
-}*/
-
 #links:hover{
 	font-style:italic;
 }
 
-img {
+p {
+	margin-top: 70;
+	margin-bottom: 70;
+	margin-left: 70;
+	margin-right: 70;
+}
+
+.portfolio_img {
 	height: 100px;
 	width: 100px;
 }
