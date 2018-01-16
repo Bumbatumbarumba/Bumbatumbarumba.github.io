@@ -3,13 +3,37 @@ Created by Bartosz Kosakowski
 09/22/17
 CSS for my rad website
 */
-
 body {
-	background-color: #d5e1df;
+    background-image: url("images/galaxy.jpg");
+    background-repeat: no-repeat;
+    background-position: center top;
+    background-attachment: fixed;
+    /*background-color: #d5e1df;*/
+    margin-top: 20px;
+    margin-left: 20px;
+    margin-right: 20px;
+    margin-bottom: 20px;
 }
 
-#links:hover{
+#sitetitle {
+	padding-left: 39vw;
+}
+
+#sitedesc {
+	padding-left: 22vw;
+}
+
+a, p, h1 {
+	color: white;
+}
+
+#links:hover {
 	font-style:italic;
+}
+
+#links {
+	padding-top: px;
+	margin-top: 15px;
 }
 
 p {
@@ -17,9 +41,31 @@ p {
 	margin-bottom: 70;
 	margin-left: 70;
 	margin-right: 70;
+	text-align: justify;
 }
 
-img {
-	height: 150px;
-	width: 150px;
+#portimg {
+	height: 200px;
+	width: 200px;
+	border-radius: 50%;
+	position: relative;
+}
+
+a { 
+	text-decoration: none;
+}
+
+#proj1 {
+	display: inline-block;
+	margin-right: 10px;
+	padding: 10px;
+}
+
+#proj2 {
+	display: inline-block;
+	padding: 10px;
+}
+
+#mainlinks {
+
 }
