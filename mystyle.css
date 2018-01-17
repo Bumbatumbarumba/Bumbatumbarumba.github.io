@@ -13,9 +13,6 @@ body {
     margin-left: 20px;
     margin-right: 20px;
     margin-bottom: 20px;
-    color: white;
-	font-family: monospace;
-	font-size: 16pt;
 }
 
 #sitetitle {
@@ -26,6 +23,18 @@ body {
 	padding-left: 22vw;
 	padding-right: 22vw;
 	text-align: center;
+}
+
+a, p, h1 {
+	color: white;
+	font-family: monospace;
+	font-size: 16pt;
+}
+
+.desc {
+	color: white;
+	font-family: monospace;
+	font-size: 16pt;
 }
 
 #links:hover {
@@ -67,7 +76,6 @@ a {
 	grid-template-columns: 350px 350px 350px 350px;
     grid-template-rows: 250px 250px;
 }
-
 
 /*.progress .back {
     position: absolute;
