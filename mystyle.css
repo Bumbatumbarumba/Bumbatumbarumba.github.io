@@ -42,6 +42,10 @@ h1 {
 	text-align: center;
 }
 
+#sitetitle {
+	padding-top: 1vw
+}
+
 #sitedesc {
 	padding-left: 22vw;
 	padding-right: 22vw;
@@ -188,22 +192,24 @@ and for the links on the side*/
 	opacity: 0.5;
 	border-style: none solid solid solid;
 	border-color: #ff1a1a;
+	border-width: thin;
 	position: absolute;
-	top: 30px;
-	left: 265px;
+	top: 2vw;
+	left: 18vw;
 	z-index: -5;
 }
 
 #term1navbar {
-	width: 1000px
-	height:	15px;
-	background-color: white;
+	width: 1000px;
+	height: 15px;
+	background-color: #ffffff;
 	opacity: 0.5;
-	border-style: solid none none solid;
+	border-style: solid solid none solid;
 	border-color: #ff1a1a;
+	border-width: thin;
 	position: absolute;
-	top: 15px;
-	left: 265px;
+	top: 1vw;
+	left: 18vw;
 	z-index: -5;
 }
 
@@ -211,4 +217,6 @@ and for the links on the side*/
 	width: 10px
 	height: 10px;
 	background-color: red;
+	margin-right: 10px;
+	margin-left: 10px;
 }
