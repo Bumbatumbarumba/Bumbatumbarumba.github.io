@@ -21,19 +21,18 @@ body {
 
 #sitedesc {
 	padding-left: 22vw;
+	padding-right: 22vw;
+	text-align: center;
 }
 
 a, p, h1 {
 	color: white;
+	font-family: monospace;
+	font-size: 16pt;
 }
 
 #links:hover {
 	font-style:italic;
-}
-
-#links {
-	padding-top: px;
-	margin-top: 15px;
 }
 
 p {
@@ -58,14 +57,37 @@ a {
 #proj1 {
 	display: inline-block;
 	margin-right: 10px;
-	padding: 10px;
+	padding: 20px;
 }
 
 #proj2 {
 	display: inline-block;
-	padding: 10px;
+	padding: 20px;
 }
 
-#mainlinks {
-
+.wrapper {
+	display: grid;
+	grid-template-columns: 350px 350px 350px 350px;
+    grid-template-rows: 250px 250px;
 }
+
+
+/*.progress .back {
+    position: absolute;
+    background-color: #e7eeeb;
+    width: calc(100% - 10px);
+    height: calc(100% - 10px);
+    top: 5px;
+    left: 5px;
+    border-radius: 50%;
+}
+
+.progress .back-centre {
+    position: absolute;
+    background-color: #fff;
+    width: calc(100% - 40px);
+    height: calc(100% - 40px);
+    top: 20px;
+    left: 20px;
+    border-radius: 50%;
+}*/
