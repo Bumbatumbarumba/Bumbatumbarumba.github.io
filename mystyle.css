@@ -3,6 +3,10 @@ Created by Bartosz Kosakowski
 09/22/17
 CSS for my rad website
 */
+
+/*
+modifies the base elements
+*/
 body {
     background-image: url("images/galaxy.jpg");
     background-repeat: no-repeat;
@@ -15,32 +19,6 @@ body {
     margin-bottom: 20px;
 }
 
-#sitetitle {
-	padding-left: 39vw;
-}
-
-#sitedesc {
-	padding-left: 22vw;
-	padding-right: 22vw;
-	text-align: center;
-}
-
-a, p, h1 {
-	color: white;
-	font-family: monospace;
-	font-size: 16pt;
-}
-
-.desc {
-	color: white;
-	font-family: monospace;
-	font-size: 16pt;
-}
-
-#links:hover {
-	font-style:italic;
-}
-
 p {
 	margin-top: 70;
 	margin-bottom: 70;
@@ -49,15 +27,81 @@ p {
 	text-align: justify;
 }
 
-#portimg {
-	height: 200px;
-	width: 200px;
-	border-radius: 50%;
-	position: relative;
-}
-
 a { 
 	text-decoration: none;
+}
+
+a, p, h1, .desc {
+	/*color: #00FF00;*/
+	color: white;
+	font-family: monospace;
+	font-size: 16pt;
+}
+
+h1 {
+	text-align: center;
+}
+
+#sitedesc {
+	padding-left: 22vw;
+	padding-right: 22vw;
+	text-align: center;
+}
+
+#aboutdesc {
+	margin-top: 100px;
+	margin-left: 300px;
+	margin-right: 300px;
+}
+
+#edu, #exp, #skills, #port, #linkedin, #git {
+	/*MAKE THIS SOMEHOW GIVE EACH LINK SOME DISTANCE FROM ONE ANOTHER*/
+}
+
+/*hovering over each link*/
+#abt:hover {
+	font-style:italic;
+	background-color: white;
+	color: black;
+}
+#edu:hover {
+	font-style:italic;
+	background-color: white;
+	color: black;
+}
+#exp:hover {
+	font-style:italic;
+	background-color: white;
+	color: black;
+}
+#skills:hover {
+	font-style:italic;
+	background-color: white;
+	color: black;
+}
+#port:hover {
+	font-style:italic;
+	background-color: white;
+	color: black;
+}
+#linkedin:hover {
+	font-style:italic;
+	background-color: white;
+	color: black;
+}
+#git:hover {
+	font-style:italic;
+	background-color: white;
+	color: black;
+}
+
+/*
+Organizes projects in a table
+*/
+.wrapper {
+	display: grid;
+	grid-template-columns: 350px 350px 350px 350px;
+    grid-template-rows: 250px 250px;
 }
 
 #proj1 {
@@ -71,28 +115,100 @@ a {
 	padding: 20px;
 }
 
-.wrapper {
-	display: grid;
-	grid-template-columns: 350px 350px 350px 350px;
-    grid-template-rows: 250px 250px;
+#proj3 {
+	display: inline-block;
+	padding: 20px;
 }
 
-/*.progress .back {
-    position: absolute;
-    background-color: #e7eeeb;
-    width: calc(100% - 10px);
-    height: calc(100% - 10px);
-    top: 5px;
-    left: 5px;
-    border-radius: 50%;
+/*
+sets all of the images in the portfolio section to a specified dimension
+and makes them round
+*/
+#portimg {
+	height: 200px;
+	width: 200px;
+	border-radius: 50%;
+	position: relative;
+	display: block;
+	margin: 0 auto;
 }
 
-.progress .back-centre {
-    position: absolute;
-    background-color: #fff;
-    width: calc(100% - 40px);
-    height: calc(100% - 40px);
-    top: 20px;
-    left: 20px;
-    border-radius: 50%;
-}*/
+/*
+Creates and places the stars that lead to different pages
+*/
+#aboutstar, #edustar, #expstar, #skillsstar, #portstar {
+	width: 15px;
+	height: 15px;
+	background: radial-gradient(orange, white);
+	border-style: solid;
+	border-color: #32CD32;
+	opacity: 0.5;
+	border-radius: 100%
+	-moz-border-radius: 100%;
+	-webkit-border-radius: 100%;
+}
+
+#aboutstar {
+	position: absolute;
+	left: 500px;
+	top: 430px;
+}
+
+#edustar {
+	position: absolute;
+	left: 580px;
+	top: 390px;
+}
+
+#expstar {
+	position: absolute;
+	left: 500px;
+	top: 430px;
+}
+
+#skillsstar {
+	position: absolute;
+	left: 500px;
+	top: 430px;
+}
+
+/*( ͡° ͜ʖ ͡°)*/
+#portstar {
+	position: absolute;
+	left: 500px;
+	top: 430px;
+}
+
+/*creates the terminal windows for the title section of the site
+and for the links on the side*/
+#term1window {
+	width: 1000px;
+	height: 110px;
+	background-color: black;
+	opacity: 0.5;
+	border-style: none solid solid solid;
+	border-color: #ff1a1a;
+	position: absolute;
+	top: 30px;
+	left: 265px;
+	z-index: -5;
+}
+
+#term1navbar {
+	width: 1000px
+	height:	15px;
+	background-color: white;
+	opacity: 0.5;
+	border-style: solid none none solid;
+	border-color: #ff1a1a;
+	position: absolute;
+	top: 15px;
+	left: 265px;
+	z-index: -5;
+}
+
+#Xbutton1 {
+	width: 10px
+	height: 10px;
+	background-color: red;
+}
