@@ -104,7 +104,7 @@ Organizes projects in a table
 */
 .wrapper {
 	display: grid;
-	grid-template-columns: 350px 350px 350px 350px;
+	grid-template-columns: 350px 350px 350px;
     grid-template-rows: 250px 250px;
 }
 
