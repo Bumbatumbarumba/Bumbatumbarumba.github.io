@@ -7,12 +7,16 @@ CSS for my rad website
 /*
 modifies the base elements
 */
-body {
-    background-image: url("images/galaxy.jpg");
+.homepage {
+	background-image: url("images/galaxy.jpg");
     background-repeat: no-repeat;
     background-position: center top;
     background-attachment: fixed;
+}
+
+body {
     /*background-color: #d5e1df;*/
+    background-color: black;
     margin-top: 20px;
     margin-left: 20px;
     margin-right: 20px;
