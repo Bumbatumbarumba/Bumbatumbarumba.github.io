@@ -146,6 +146,11 @@ and makes them round
 	margin: 0 auto;
 }
 
+#portimg:hover {
+	border-style: solid;
+	border-color: red;
+}
+
 /*
 Creates and places the stars that lead to different pages
 */
