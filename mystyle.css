@@ -90,7 +90,7 @@ Index page stuff
 Resume page stuff
 */
 .resumepage {
-	background-color: black;
+	background-image: url("images/galaxy.jpg");
 }
 /*====================================*/
 
@@ -99,7 +99,7 @@ Resume page stuff
 Projects page stuff
 */
 .projectspage {
-	background-color: black;
+	background-image: url("images/galaxy.jpg");
 }
 /*====================================*/
 
@@ -108,6 +108,7 @@ Projects page stuff
 Contact page stuff
 */
 .contactpage {
-	background-color: black;
+	/*background-color: black;*/
+	background-image: url("images/galaxy.jpg");
 }
 /*====================================*/
