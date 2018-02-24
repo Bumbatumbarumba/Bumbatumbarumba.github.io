@@ -7,14 +7,20 @@ General stuff
 */
 .title {
 	font-size: 32px;
+	position:relative;
+    margin:0 auto;
+    clear:left;
+    height:auto;
+    z-index: 0;
+    text-align:center;/* Add This*/
 }
 
-.title, p, a {
+.title, p, a, label {
 	color: white;
 	font-family: monospace;
 	text-decoration: none;
 }
-p, a {
+p, a, label {
 	font-size: 20px;
 }
 
@@ -26,6 +32,8 @@ a:hover {
 
 body {
 	margin:	20px;
+	background-image: url("images/galaxy.jpg");
+	background-position: top center;
 }
 /*====================================*/
 
@@ -90,7 +98,6 @@ Index page stuff
 Resume page stuff
 */
 .resumepage {
-	background-image: url("images/galaxy.jpg");
 }
 /*====================================*/
 
@@ -99,7 +106,6 @@ Resume page stuff
 Projects page stuff
 */
 .projectspage {
-	background-image: url("images/galaxy.jpg");
 }
 /*====================================*/
 
@@ -109,6 +115,27 @@ Contact page stuff
 */
 .contactpage {
 	/*background-color: black;*/
-	background-image: url("images/galaxy.jpg");
+}
+
+.contactbox {
+	background-color: black;
+	width: 240px;
+	height: 550px;
+	border-style: solid;
+	border-color: red;
+	border-width: 1px;
+	border-radius: 15px 15px 15px 15px;
+	position: relative;
+	top: 100px;
+}
+
+.contactcontents {
+	display: grid;
+	grid-template-columns: 220px;
+	grid-template-rows: 480px 25px;
+	position: relative;
+	margin: 0 auto;
+	padding-left: 10px;
+	padding-top: 12px;
 }
 /*====================================*/
