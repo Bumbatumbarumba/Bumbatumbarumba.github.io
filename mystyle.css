@@ -12,7 +12,7 @@ General stuff
     clear:left;
     height:auto;
     z-index: 0;
-    text-align:center;/* Add This*/
+    text-align:center;
 }
 
 .title, p, a, label {
@@ -34,6 +34,24 @@ body {
 	margin:	20px;
 	background-image: url("images/galaxy.jpg");
 	background-position: top center;
+}
+
+.titlebox {
+	background-color: black;
+	width: 300px;
+	height: 150px;
+	border-style: solid;
+	border-color: red;
+	border-width: 1px;
+	border-radius: 15px 15px 15px 15px;
+	position: relative;
+	top: 0px;
+	position:relative;
+    margin:0 auto;
+    clear:left;
+    height:auto;
+    z-index: 0;
+    text-align:center;
 }
 /*====================================*/
 
@@ -126,7 +144,7 @@ Contact page stuff
 	border-width: 1px;
 	border-radius: 15px 15px 15px 15px;
 	position: relative;
-	top: 100px;
+	top: 50px;
 }
 
 .contactcontents {
@@ -138,4 +156,5 @@ Contact page stuff
 	padding-left: 10px;
 	padding-top: 12px;
 }
+
 /*====================================*/
