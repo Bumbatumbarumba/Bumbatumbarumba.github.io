@@ -46,12 +46,11 @@ body {
 	border-radius: 15px 15px 15px 15px;
 	position: relative;
 	top: 0px;
-	position:relative;
-    margin:0 auto;
-    clear:left;
-    height:auto;
+    margin: 0 auto;
+    clear: left;
+    height: auto;
     z-index: 0;
-    text-align:center;
+    text-align: center;
 }
 /*====================================*/
 
@@ -85,14 +84,14 @@ Index page stuff
 	grid-template-rows: 25px 25px 25px 25px 25px;
 	position: relative;
 	margin: 0 auto;
-	padding-left: 10px;
-	padding-top: 12px;
+	padding-left: 20px;
+	padding-top: 17px;
 }
 
 .linkbox {
 	background-color: black;
-	width: 170px;
-	height: 150px;
+	width: 185px;
+	height: 160px;
 	border-style: solid;
 	border-color: red;
 	border-width: 1px;
@@ -101,7 +100,6 @@ Index page stuff
 	top: 100px;
 }
 
-/*why don't you do the thing I want you to do :(*/
 .about {
 	text-align: justify;
 	text-justify: inter-word;
@@ -130,16 +128,31 @@ Projects page stuff
 	width: 200px;
 	height: 200px;
 	background-color: black;
-	border-style: solid;
 	border-radius: 200px;
+	align-content: center;
+	margin-left: 15%;
+}
+
+#projectimgs:hover {
+	border-style: solid;
 	border-color: red;
 	border-width: 1px;
 }
 
 .projectsgrid {
 	display: grid;
+	grid-column-gap: 15px;
 	grid-template-columns: 300px 300px 300px;
 	grid-template-rows: 400px 400px 400px;
+	align-items: center;
+	/*positions the table to be in the center of the body*/
+	position: absolute;
+    left: 22%;
+    top: 15%;
+    width:20px;
+    height:20px;
+    margin-left:-10px;
+    margin-top:-10px;
 }
 /*====================================*/
 
@@ -153,7 +166,7 @@ Contact page stuff
 
 .contactbox {
 	background-color: black;
-	width: 240px;
+	width: 260px;
 	height: 550px;
 	border-style: solid;
 	border-color: red;
@@ -166,10 +179,11 @@ Contact page stuff
 .contactcontents {
 	display: grid;
 	grid-template-columns: 220px;
-	grid-template-rows: 480px 25px;
+	grid-template-rows: 480px 22px;
+	grid-row-gap: 17px;
 	position: relative;
 	margin: 0 auto;
-	padding-left: 10px;
+	padding-left: 23px;
 	padding-top: 12px;
 }
 
