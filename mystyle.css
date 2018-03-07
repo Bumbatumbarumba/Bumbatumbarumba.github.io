@@ -24,7 +24,7 @@ p, a, label {
 	font-size: 20px;
 }
 
-a:hover {
+.textlink:hover {
 	font-style: italic;
 	background-color: white;
 	color: black;
@@ -124,6 +124,22 @@ Resume page stuff
 Projects page stuff
 */
 .projectspage {
+}
+
+#projectimgs {
+	width: 200px;
+	height: 200px;
+	background-color: black;
+	border-style: solid;
+	border-radius: 200px;
+	border-color: red;
+	border-width: 1px;
+}
+
+.projectsgrid {
+	display: grid;
+	grid-template-columns: 300px 300px 300px;
+	grid-template-rows: 400px 400px 400px;
 }
 /*====================================*/
 
