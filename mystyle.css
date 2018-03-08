@@ -130,29 +130,40 @@ Projects page stuff
 	background-color: black;
 	border-radius: 200px;
 	align-content: center;
-	margin-left: 15%;
+	margin-left: 17%;
+	border-style: solid;
+	border-color: black;
+	border-width: 2px;
 }
 
 #projectimgs:hover {
-	border-style: solid;
 	border-color: red;
-	border-width: 1px;
 }
 
 .projectsgrid {
 	display: grid;
-	grid-column-gap: 15px;
-	grid-template-columns: 300px 300px 300px;
-	grid-template-rows: 400px 400px 400px;
+	grid-column-gap: 2em;
+	grid-row-gap: 2em;
+	grid-template-columns: 20em 20em 20em;
+	grid-template-rows: 20em 20em 20em;
 	align-items: center;
 	/*positions the table to be in the center of the body*/
 	position: absolute;
-    left: 22%;
+    left: 17%;
     top: 15%;
-    width:20px;
-    height:20px;
-    margin-left:-10px;
-    margin-top:-10px;
+    width: 1em;
+    height: 1em;
+    margin-left: -1vw;
+    margin-top: -1vh;
+}
+
+#pokebot, #booklist, #conwaysgamejava, #discordbots, #nosophobic, #javastone {
+	position: relative;
+	top: 1em;
+}
+
+#projdesc {
+	text-align: justify;
 }
 /*====================================*/
 
