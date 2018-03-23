@@ -114,6 +114,24 @@ Index page stuff
 Resume page stuff
 */
 .resumepage {
+	margin-left: 4em;
+	margin-right: 4em;
+}
+
+.skillsgrid {
+	display: grid;
+	grid-column-gap: 2em;
+	grid-row-gap: 2em;
+	grid-template-columns: 10% 10% 10% 10%;
+	grid-template-rows: 10% 10% 10%;
+	background-color: black;
+	border-style: solid;
+	border-radius: 15px 15px 15px 15px;
+	border-color: red;
+}
+
+#proglang {
+	text-align: center;
 }
 /*====================================*/
 
