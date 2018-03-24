@@ -142,6 +142,9 @@ Resume page stuff
 Projects page stuff
 */
 .projectspage {
+	margin: 10px;
+	padding-left: 10px;
+	padding-right: 10px;
 }
 
 #projectimgs {
@@ -169,7 +172,7 @@ Projects page stuff
 	align-items: center;
 	/*positions the table to be in the center of the body*/
 	position: absolute;
-    left: 17%;
+    left: 20%;
     top: 15%;
     width: 1em;
     height: 1em;
@@ -184,6 +187,15 @@ Projects page stuff
 
 #projdesc {
 	text-align: justify;
+	background-color: black;
+	padding-left: 10px;
+	padding-right: 10px;
+	padding-top: 5px;
+	padding-bottom: 5px;
+	border-style: solid;
+	border-radius: 15px 15px 15px 15px;
+	border-width: 1px;
+	border-color: red;
 }
 /*====================================*/
 
