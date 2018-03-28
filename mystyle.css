@@ -81,7 +81,8 @@ Index page stuff
 	color: white;
 	display: grid;
 	grid-template-columns: 145px;
-	grid-template-rows: 25px 25px 25px 25px 25px;
+	/*grid-template-rows: 25px 25px 25px 25px 25px;*/
+	grid-auto-rows: auto;
 	position: relative;
 	margin: 0 auto;
 	padding-left: 20px;
