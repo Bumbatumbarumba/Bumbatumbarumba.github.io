@@ -26,5 +26,9 @@ function scrubHeader(){
     var splitLink = getLink.split("/");
     var pageName = splitLink[splitLink.length-1].replace(".html", "");
 
+    if (pageName == "") {
+        pageName = "index";
+    }
+
     return pageName;
 }
