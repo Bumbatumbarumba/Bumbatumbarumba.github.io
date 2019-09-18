@@ -13,10 +13,10 @@ html, body {
 
 h1 {
     font-family: 'Roboto Mono', monospace;
+    text-decoration: underline;
 }
 
 a {
-    text-decoration: none;
     color: white;
 }
 
@@ -69,11 +69,13 @@ body {
     align-self: center;
 }
 
-li {
+.sidebar-points {
     list-style-type: none;
     padding: 2%;
+    padding-right: 20%;
     font-size: 2em;
     align-self: center;
+    display: flex;
 }
 
 a:hover {
@@ -84,4 +86,14 @@ a:hover {
     text-decoration: none;
     font-family: 'Roboto Mono', monospace;
     color: white;
+}
+
+
+
+/*
+    ================================== PROJECTS ================================== 
+*/
+#project-list {
+    overflow-y: auto;
+    height: 30em;
 }
