@@ -1,10 +1,4 @@
 /*
-        FONTS - DELETE ME EVENTUALLY
-            FOR TITLES AND LINKS --> font-family: 'Roboto Mono', monospace;
-            FOR BODY --> font-family: 'Nunito', sans-serif;
-*/
-
-/*
     ================================== BODY ================================== 
 */
 html, body {
@@ -35,6 +29,7 @@ body {
     background-color: rgba(0, 0, 0, 0.75);
     display: flex;
     flex-direction: column;
+    align-items: flex-start;
 }
 
 #body-title {
@@ -44,6 +39,10 @@ body {
 
 #body-content {
     color: white;
+    /*width: 60%;
+    height: 100%;
+    position: fixed;
+    top: 30%;*/
 }
 
 
@@ -88,6 +87,11 @@ a:hover {
     color: white;
 }
 
+.activeHeader {
+    text-decoration: underline;
+}
+
+
 
 
 /*
@@ -96,4 +100,66 @@ a:hover {
 #project-list {
     overflow-y: auto;
     height: 30em;
+    display: flex;
+    flex-direction: column;
+    flex-shrink: 2;
+}
+
+#project-description {
+    overflow-wrap: break-word;
+}
+
+.project-image {
+    width: 30em;
+    height: auto;
+}
+
+.project {
+    margin-top: 15%;
+}
+
+
+
+
+/*
+    ================================== EMPLOYMENT ================================== 
+*/
+.job-tasks-hidden {
+    height: 0;
+    display: none;
+}
+
+.job-tasks-visible {
+    height: 100%;
+    display: block;
+}
+
+#resdl {
+    padding-top: 50%;
+}
+
+
+
+
+/*
+    ================================== SKILLS ================================== 
+*/
+#skills {
+    margin-top: 15%;
+}
+
+#languages {
+    list-style-type: none;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    height: 10em;
+}
+
+.lang {
+    margin-top: 1em;
+}
+
+#volunteering {
+    margin-top: 15%;
 }

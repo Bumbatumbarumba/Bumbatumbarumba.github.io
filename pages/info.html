@@ -8,7 +8,7 @@
 
         <title>Bartosz Kosakowski</title>
     </head>
-    <body>
+    <body onload="setActiveLink()">
         <div class="sidebar">
             <img id="profile-pic" src="../images/profile.png" alt="A nice picture of Bartosz Kosakowski smiling at the camera.">
             <ul id="links">
@@ -29,8 +29,53 @@
         <div class="page-body">
             <h1 id="body-title">Bartosz Kosakowski</h1>
             <div id="body-content">
-                
+                <div id="school">
+                    <h3 style="text-decoration: underline">McMaster University</h3>
+                    <h3>B.A.Sc. Honours Computer Science Co-op - 2020</h3>
+                </div>
+
+                <div id="skills">
+                    <h3 style="text-decoration: underline">Programming Languages</h3>
+                    <ul id="languages">
+                        <li class="lang">
+                            Java
+                        </li>
+                        <li class="lang">
+                            Python
+                        </li>
+                        <li class="lang">
+                            HTML/CSS
+                        </li>
+                        <li class="lang">
+                            JavaScript
+                        </li>
+                        <li class="lang">
+                            SQL
+                        </li>
+                        <li class="lang">
+                            Elm
+                        </li>
+                        <li class="lang">
+                            C#.NET
+                        </li>
+                        <li class="lang">
+                            VB.NET
+                        </li>
+                    </ul>
+                </div>
+
+                <div id="volunteering">
+                    <h3 style="text-decoration: underline">McMaster Outreach - October 2016</h3>
+                    <p>
+                        Volunteered with the McMaster University Outreach program<br>
+                        over the October 2016 reading week to encourage local elementary<br>
+                        school children to pursue studies in Computer Science. Tutored<br>
+                         very basic elm syntax to elementary-level children.<br>
+                    </p>
+                </div>
             </div>
         </div>
+
+        <script src="../javascript/active_links.js"></script>
     </body>
 </html>

@@ -6,9 +6,13 @@
         <link rel="stylesheet" type="text/css" href="../styles/smallstyle.css">
         <link href="https://fonts.googleapis.com/css?family=Nunito|Roboto+Mono&display=swap" rel="stylesheet">
 
+        <meta property="og:image" content="../images/profile.png" />
+        <meta property="og:type" content="websites" />
+        <meta property="og:description" content="A website about Bartosz Kosakowski." />
+
         <title>Bartosz Kosakowski</title>
     </head>
-    <body>
+    <body onload="setActiveLink()">
         <div class="sidebar">
             <img id="profile-pic" src="../images/profile.png" alt="A nice picture of Bartosz Kosakowski smiling at the camera.">
             <ul id="links">
@@ -30,33 +34,86 @@
             <h1 id="body-title">Bartosz Kosakowski</h1>
             <div id="body-content">
                 <div id="job-list">
-                    <div id="job">
-                        <h3 id="job-title">Developer - Ontario Financing Authority</h3>
-                        <h3 id="job-period">April 2018 - August 2019</h3>
-                        <ul id="job-tasks">
+                    <div class="job">
+                        <h3 class="job-company">Ontario Financing Authority</h3>
+                        <h3 class="job-title">Junior Developer</h3>
+                        <h3 class="job-period">April 2018 - August 2019</h3>
+                    </div>
+                    <hr>
+                    <div class="job">
+                        <h3 class="job-company">Cyclone Manufacturing INC.</h3>
+                        <h3 class="job-title">Production Planning Assistant</h3>
+                        <h3 class="job-period">May 2017 - August 2017</h3>
+                    </div>
+                    <p id="resdl">
+                        View my resume <a href="../images/bartosz_kosakowski_v3_sept2019.pdf" target="_blank">here.</a>
+                    </p>
+                    <!--
+                    <div class="job">
+                        <h3 class="job-title">Developer - Ontario Financing Authority</h3>
+                        <h3 class="job-period">April 2018 - August 2019</h3>
+                        <input class="show-duties" type="button" value="Toggle Duties" onclick="toggleDescription('ofa-duties')">
+                        <ul class="job-tasks-hidden" id="ofa-duties">
                             <li>
-                                Did one thing.
+                                Refined the speed and security of the software by processing all of the project<br>
+                                files in the organization and removing in-line SQL statements, and replacing them<br>
+                                with stored procedures.<br>
                             </li>
                             <li>
-                                Did another thing.
+                                Improved the management of new bank data, and workflow by adding additional features<br>
+                                to financial trade software and changes to the user interface.<br>
+                            </li>
+                            <li>
+                                Enhanced accuracy of financial reports and efficiency in generating them by correcting<br>
+                                calculations across several pieces of software, as well as providing overall support<br>
+                                for future issues related to these areas.<br>
+                            </li>
+                            <li>
+                                Allowed for managers to have a better understanding of existing errors in report <br>
+                                generating software by providing information on their cause, which also resulted <br>
+                                in easier planning to x them in the future.<br>
+                            </li>
+                            <li>
+                                Implemented new SQL tables and views which would be used in future feature additions to<br>
+                                the software. <br>
+                            </li>
+                            <li>
+                                Facilitated better structured and organized social events by assisting other co-op<br>
+                                students in planning, and decorating, including creating websites on the company<br>
+                                portal to advertise and sign up for participation. <br>
                             </li>
                         </ul>
                     </div>
                     <hr>
                     <div class="job">
-                        <h3 id="job-title">Production Planning Assistant - Cyclone MFG Inc.</h3>
-                        <h3 id="job-period">May 2017 - August 2017</h3>
-                        <ul id="job-tasks">
+                        <h3 class="job-title">Production Planning Assistant - Cyclone MFG Inc.</h3>
+                        <h3 class="job-period">May 2017 - August 2017</h3>
+                        <input class="show-duties" type="button" value="Toggle Duties" onclick="toggleDescription('cmfg-duties')">
+                        <ul class="job-tasks-hidden" id="cmfg-duties">
                             <li>
-                                Did one thing.
+                                Dramatically reduced team workload by rapidly releasing over 600 work orders and 50 part<br>
+                                templates using Microsoft Dynamics AX and JobBOSS ERP software. <br>
                             </li>
                             <li>
-                                Did another thing.
+                                Lead to faster and easier releasing of work orders by reviewing engineering documents, drawings,<br>
+                                and purchase orders by ensuring they contain data of sufficient quality and correctness. <br>
+                            </li>
+                            <li>
+                                Allowed for senior team members to focus on higher priority tasks and improved office<br>
+                                productivity by training and mentoring several new employees in production planning. <br>
+                            </li>
+                            <li>
+                                Created an easier transition to a new software system by transferring data out of the old <br>
+                                JobBOSS software and into the new Microsoft Dynamics AX platform. <br>
                             </li>
                         </ul>
                     </div>
+                    -->
                 </div>
             </div>
         </div>
+
+        <script src="../javascript/active_links.js"></script>
+        <script src="../javascript/job_desc_display.js"></script>
     </body>
 </html>

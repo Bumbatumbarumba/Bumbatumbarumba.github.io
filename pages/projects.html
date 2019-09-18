@@ -8,7 +8,7 @@
 
         <title>Bartosz Kosakowski</title>
     </head>
-    <body>
+    <body onload="setActiveLink()">
         <div class="sidebar">
             <img id="profile-pic" src="../images/profile.png" alt="A nice picture of Bartosz Kosakowski smiling at the camera.">
             <ul id="links">
@@ -29,37 +29,42 @@
         <div class="page-body">
             <h1 id="body-title">Bartosz Kosakowski</h1>
             <div id="body-content">
-                <p>Check out my Github for more: <a href="https://github.com/Bumbatumbarumba" target="_blank">here</a></p>
                 <div id="project-list">
                     <div class="project">
-                        <img class="project-image" src="" alt="">
-                        <h3 class="project-title">title</h3>
-                        <h3 class="project-period">date - date</h3>
-                        <p class="project-description">Lorem ipsum dolor sit amet consectetur adipisicing elit. Placeat, saepe sit, id earum neque at soluta ducimus consequuntur cumque accusantium recusandae deserunt magnam! Incidunt officiis accusantium blanditiis dignissimos animi? Ipsam?</p>
+                        <img class="project-image" src="../images/kevinskreations.PNG" alt="Picture representing Kevin's Kreations.">
+                        <h3 class="project-title">Kevin's Kreations - <a href="http://student.athabascau.ca/~bartoszko1/cs266/project/index.html">Visit Site</a></h3>
+                        <h3 class="project-period">July 2019 - September 2019</h3>
+                        <p class="project-description">
+                            A website meant to be a mock-up of an online art store where the user<br>
+                            can browse the artist's portfolio, read their biography, select items<br>
+                            to add to a cart, view them in a dynamic checkout list, sign up for a<br>
+                            mailing list, and send them a message.
+                        </p>
                     </div>
-                    <hr>
                     <div class="project">
-                        <img class="project-image" src="" alt="">
-                        <h3 class="project-title">title</h3>
-                        <h3 class="project-period">date - date</h3>
-                        <p class="project-description">some desc</p>
+                        <img class="project-image" src="../images/dmscreen.PNG" alt="A picture of the main window for DM Screen.">
+                        <h3 class="project-title">DM Screen - <a href="https://github.com/Bumbatumbarumba/DmScreenV2" target="_blank">Github</a></h3>
+                        <h3 class="project-period">September 2018 - Current</h3>
+                        <p class="project-description">
+                            A desktop software that provides Dungeons and Dragons Dungeon Masters<br>
+                            with a series of tools to create more a more immersive experience for<br>
+                            their players.
+                        </p>
                     </div>
-                    <hr>
                     <div class="project">
-                        <img class="project-image" src="" alt="">
-                        <h3 class="project-title">title</h3>
-                        <h3 class="project-period">date - date</h3>
-                        <p class="project-description">some desc</p>
-                    </div>
-                    <hr>
-                    <div class="project">
-                        <img class="project-image" src="" alt="">
-                        <h3 class="project-title">title</h3>
-                        <h3 class="project-period">date - date</h3>
-                        <p class="project-description">some desc</p>
+                        <img class="project-image" src="../images/moviesreview.PNG" alt="Picture representing Movie Reviews.">
+                        <h3 class="project-title">Movie Reviews</h3>
+                        <h3 class="project-period">April 2018 - May 2018</h3>
+                        <p class="project-description">
+                            Movie Reviews is a desktop app that allows for users to sign up, log in,<br>
+                            create and edit their prole information, view details about movies, create<br>
+                            and view movie reviews, and create a friend network. 
+                        </p>
                     </div>
                 </div>
             </div>
         </div>
+
+        <script src="../javascript/active_links.js"></script>
     </body>
 </html>
