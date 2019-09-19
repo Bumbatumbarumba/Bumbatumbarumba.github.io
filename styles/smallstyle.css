@@ -1,7 +1,7 @@
 /*
     Style for small screens
 */
-@media all and (max-width: 600px) {
+@media all and (max-width: 500px) {
     /*
     ================================== BODY ================================== 
     */
@@ -30,11 +30,16 @@
     */  
     .sidebar {
         display: flex;
-        flex-direction: row;
+        flex-direction: column;
+        align-items: center;
     }
 
     #links {
         display: inline-block;
+    }
+
+    #profile-pic {
+        display: none;
     }
 
 
@@ -44,7 +49,7 @@
     ================================== PROJECT ================================== 
     */
     .project-image {
-        width: 20em;
+        width: 100%;
         height: auto;
     }
 
@@ -54,7 +59,7 @@
 
     #project-list {
         overflow-y: auto;
-        height: 28em;
+        height: 100%;
         display: flex;
         flex-direction: column;
         justify-content: center;
@@ -65,7 +70,7 @@
     }
     
     .project {
-        width: 25em;
+        width: 100%;
         text-align: center;
     } 
 
@@ -76,7 +81,7 @@
     ================================== INFO ================================== 
     */
     #volunteering {
-        width: 25em;
+        width: 100%;
     } 
 
     #volunteer-desc {
