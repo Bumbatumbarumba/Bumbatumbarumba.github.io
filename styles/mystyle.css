@@ -39,10 +39,12 @@ body {
 #body-title {
     color: white;
     margin-top: 30%;
+    height: 10%;
 }
 
 #body-content {
     color: white;
+    width: 35em;
 }
 
 
@@ -114,9 +116,6 @@ a:hover {
     height: auto;
 }
 
-.project {
-    width: 35em;
-}
 
 
 
@@ -167,5 +166,4 @@ a:hover {
 
 #volunteering {
     margin-top: 15%;
-    width: 35em;
 }

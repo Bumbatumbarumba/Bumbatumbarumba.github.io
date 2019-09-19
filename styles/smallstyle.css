@@ -20,6 +20,7 @@
         display: flex;
         flex-direction: column;
         justify-content: center;
+        width: 35em;
     }
 
 
@@ -36,6 +37,7 @@
 
     #links {
         display: inline-block;
+        height: 100%;
     }
 
     #profile-pic {
@@ -49,7 +51,6 @@
     ================================== PROJECT ================================== 
     */
     .project-image {
-        width: 100%;
         height: auto;
     }
 
@@ -70,7 +71,6 @@
     }
     
     .project {
-        width: 100%;
         text-align: center;
     } 
 
@@ -80,10 +80,6 @@
     /*
     ================================== INFO ================================== 
     */
-    #volunteering {
-        width: 100%;
-    } 
-
     #volunteer-desc {
         overflow-wrap: break-word;
     }
