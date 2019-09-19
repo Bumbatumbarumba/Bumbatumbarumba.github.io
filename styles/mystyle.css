@@ -39,10 +39,6 @@ body {
 
 #body-content {
     color: white;
-    /*width: 60%;
-    height: 100%;
-    position: fixed;
-    top: 30%;*/
 }
 
 
@@ -99,7 +95,7 @@ a:hover {
 */
 #project-list {
     overflow-y: auto;
-    height: 30em;
+    height: 28em;
     display: flex;
     flex-direction: column;
     flex-shrink: 2;
@@ -115,7 +111,7 @@ a:hover {
 }
 
 .project {
-    margin-top: 15%;
+    width: 35em;
 }
 
 
@@ -167,4 +163,5 @@ a:hover {
 
 #volunteering {
     margin-top: 15%;
+    width: 35em;
 }
