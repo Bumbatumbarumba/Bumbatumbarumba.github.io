@@ -1,24 +1,25 @@
 <!DOCTYPE html>
 <html>
     <head>
-        <link rel="stylesheet" type="text/css" href="../styles/mystyle.css">
-        <link rel="stylesheet" type="text/css" href="../styles/mediumstyle.css">
-        <link rel="stylesheet" type="text/css" href="../styles/smallstyle.css">
-        <link href="https://fonts.googleapis.com/css?family=Nunito|Roboto+Mono&display=swap" rel="stylesheet">
+        <link rel="stylesheet" type="text/css" href="../css/common.css">
+        <link rel="stylesheet" type="text/css" href="../css/projects.css">
+        <link href="https://fonts.googleapis.com/css?family=Cardo|Montserrat&display=swap" rel="stylesheet">
 
+        <!-- <meta property="og:image" content="../images/profile.png" /> -->
+        <meta property="og:type" content="websites" />
+        <meta property="og:description" content="A website about Bartosz Kosakowski." />
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
         <title>Bartosz Kosakowski</title>
     </head>
     <body onload="setActiveLink()">
         <div class="sidebar">
-            <img id="profile-pic" src="../images/profile.png" alt="A nice picture of Bartosz Kosakowski smiling at the camera.">
             <ul id="links">
                 <li class="sidebar-points">
                     <a class="sidebar-link" href="../index.html">Home</a>
                 </li>
                 <li class="sidebar-points">
-                    <a class="sidebar-link" href="employment.html">Employment</a>
+                    <a class="sidebar-link" href="employment.html">Work</a>
                 </li>
                 <li class="sidebar-points">
                     <a class="sidebar-link" href="projects.html">Projects</a>
@@ -29,44 +30,28 @@
             </ul>
         </div>
         <div class="page-body">
-            <h1 id="body-title">Bartosz Kosakowski</h1>
             <div id="body-content">
-                <div id="project-list">
+               <h1>PROJECTS</h1>
+               <div class="project-list">
                     <div class="project">
-                        <img class="project-image" src="../images/kevinskreations.PNG" alt="Picture representing Kevin's Kreations.">
-                        <h3 class="project-title">Kevin's Kreations - <a href="http://student.athabascau.ca/~bartoszko1/cs266/project/index.html">Visit Site</a></h3>
-                        <h3 class="project-period">July 2019 - September 2019</h3>
-                        <p class="project-description">
-                            A website meant to be a mock-up of an online art store where the user
-                            can browse the artist's portfolio, read their biography, select items
-                            to add to a cart, view them in a dynamic checkout list, sign up for a
-                            mailing list, and send them a message.
-                        </p>
+                        <img class="project-image" src="../images/moodbuddy.jpg" alt="Image representing mental health.">
+                        <h3 class="project-title">Moodbuddy (capstone project- private repo, currently)</h3>
+                        <h3>React | Typescript + Graphql | MongoDB</h3>
                     </div>
                     <div class="project">
-                        <img class="project-image" src="../images/dmscreen.PNG" alt="A picture of the main window for DM Screen.">
-                        <h3 class="project-title">DM Screen - <a href="https://github.com/Bumbatumbarumba/DmScreenV2" target="_blank">Github</a></h3>
-                        <h3 class="project-period">September 2018 - Current</h3>
-                        <p class="project-description">
-                            A desktop software that provides Dungeons and Dragons Dungeon Masters
-                            with a series of tools to create more a more immersive experience for
-                            their players.
-                        </p>
+                        <a href="https://github.com/Bumbatumbarumba/todolist" target="_blank"><img class="project-image" src="../images/todolist.jpg" alt="Image of a to do list."></a>
+                        <h3 class="project-title">To Do List (full stack) - <a class="github" href="https://github.com/Bumbatumbarumba/todolist" target="_blank">Github</a></h3>
+                        <h3>React | NodeJS | MongoDB</h3>
                     </div>
                     <div class="project">
-                        <img class="project-image" src="../images/moviesreview.PNG" alt="Picture representing Movie Reviews.">
-                        <h3 class="project-title">Movie Reviews</h3>
-                        <h3 class="project-period">April 2018 - May 2018</h3>
-                        <p class="project-description">
-                            Movie Reviews is a desktop app that allows for users to sign up, log in,
-                            create and edit their prole information, view details about movies, create
-                            and view movie reviews, and create a friend network. 
-                        </p>
+                        <a href="https://github.com/Bumbatumbarumba/DmScreenV2" target="_blank"><img class="project-image" src="../images/dmscreen.png" alt="A picture of the main window for DM Screen."></a>
+                        <h3 class="project-title">DM Screen - <a class="github" href="https://github.com/Bumbatumbarumba/DmScreenV2" target="_blank">Github</a></h3>
+                        <h3>C#.NET</h3>
                     </div>
-                </div>
+               </div>
             </div>
         </div>
 
-        <script src="../javascript/active_links.js"></script>
+        <script src="../js/active_links.js"></script>
     </body>
 </html>

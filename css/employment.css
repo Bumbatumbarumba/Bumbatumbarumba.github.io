@@ -1,0 +1,31 @@
+.job-list {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    color: white;
+}
+
+.job {
+    width: 35%;
+    margin-bottom: 5%;
+}
+
+.job-desc {
+    text-align: left;
+}
+
+
+@media all and (max-width: 600px) {
+    .job-list {
+        display: flex;
+        justify-content: space-between;
+        color: white;
+    }
+
+    .job {
+        width: 100%;
+        margin-bottom: 25%;
+        font-size: 1em;
+    }
+}

@@ -1,0 +1,66 @@
+.sidebar {
+    position: -webkit-sticky;
+    position: sticky;
+    top: 0
+}
+
+#links {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    list-style-type: none;
+    background-color: rgba(62, 68, 79, 0.75);
+}
+
+.sidebar-points {
+    padding-top: 3%;
+    padding-bottom: 3%;
+}
+
+
+body {
+    display: flex;
+    flex-direction: column;
+    background: url("../images/planks_med.jpg");
+    /* background-position: top center; */
+    min-height: 100%;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-position: center;
+    background-size: cover;
+}
+
+.page-body {
+    margin: auto;
+    width: 75%;
+    text-align: center;
+}
+
+h1, p, a .sidebar-link {
+    color: white;
+}
+
+
+p {
+    font-family: 'Cardo', serif;
+}
+
+h1, h3, .sidebar-link {
+    font-family: 'Montserrat', sans-serif;
+}
+
+.activeHeader {
+    text-decoration: underline;
+}
+
+a {
+    text-decoration: none;
+}
+
+a:visited {
+    color: white;
+}
+
+a:hover {
+    font-style: italic;
+}

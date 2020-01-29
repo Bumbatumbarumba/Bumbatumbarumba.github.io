@@ -1,24 +1,25 @@
 <!DOCTYPE html>
 <html>
     <head>
-        <link rel="stylesheet" type="text/css" href="../styles/mystyle.css">
-        <link rel="stylesheet" type="text/css" href="../styles/mediumstyle.css">
-        <link rel="stylesheet" type="text/css" href="../styles/smallstyle.css">
-        <link href="https://fonts.googleapis.com/css?family=Nunito|Roboto+Mono&display=swap" rel="stylesheet">
+        <link rel="stylesheet" type="text/css" href="../css/common.css">
+        <link rel="stylesheet" type="text/css" href="../css/info.css">
+        <link href="https://fonts.googleapis.com/css?family=Cardo|Montserrat&display=swap" rel="stylesheet">
 
+        <!-- <meta property="og:image" content="../images/profile.png" /> -->
+        <meta property="og:type" content="websites" />
+        <meta property="og:description" content="A website about Bartosz Kosakowski." />
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
         <title>Bartosz Kosakowski</title>
     </head>
     <body onload="setActiveLink()">
         <div class="sidebar">
-            <img id="profile-pic" src="../images/profile.png" alt="A nice picture of Bartosz Kosakowski smiling at the camera.">
             <ul id="links">
                 <li class="sidebar-points">
                     <a class="sidebar-link" href="../index.html">Home</a>
                 </li>
                 <li class="sidebar-points">
-                    <a class="sidebar-link" href="employment.html">Employment</a>
+                    <a class="sidebar-link" href="employment.html">Work</a>
                 </li>
                 <li class="sidebar-points">
                     <a class="sidebar-link" href="projects.html">Projects</a>
@@ -29,55 +30,63 @@
             </ul>
         </div>
         <div class="page-body">
-            <h1 id="body-title">Bartosz Kosakowski</h1>
-            <div id="body-content" class="info">
-                <div id="school">
-                    <h3 style="text-decoration: underline">McMaster University</h3>
-                    <h3>B.A.Sc. Honours Computer Science Co-op - 2020</h3>
-                </div>
+            <div id="body-content">
+               <h1>INFO</h1>
+               <div class="info">
+                    <div class="school">
+                        <h3 style="text-decoration: underline">McMaster University</h3>
+                        <h4>B.A.Sc. Honours Computer Science Co-op - 2020</h4>
+                    </div>
 
-                <div id="skills">
-                    <h3 style="text-decoration: underline">Programming Languages</h3>
-                    <ul id="languages">
-                        <li class="lang">
-                            Java
-                        </li>
-                        <li class="lang">
-                            Python
-                        </li>
-                        <li class="lang">
-                            HTML/CSS
-                        </li>
-                        <li class="lang">
-                            JavaScript
-                        </li>
-                        <li class="lang">
-                            SQL
-                        </li>
-                        <li class="lang">
-                            Elm
-                        </li>
-                        <li class="lang">
-                            C#.NET
-                        </li>
-                        <li class="lang">
-                            VB.NET
-                        </li>
-                    </ul>
-                </div>
+                    <div class="skills">
+                        <h3 style="text-decoration: underline">Programming Languages</h3>
+                        <ul class="languages">
+                            <li class="lang">
+                                JavaScript
+                            </li>
+                            <li class="lang">
+                                React
+                            </li>
+                            <li class="lang">
+                                Node
+                            </li>
+                            <li class="lang">
+                                HTML/CSS
+                            </li>
+                            <li class="lang">
+                                SQL
+                            </li>
+                            <li class="lang">
+                                Java
+                            </li>
+                            <li class="lang">
+                                Python
+                            </li>
+                            <li class="lang">
+                                C#.NET
+                            </li>
+                            <li class="lang">
+                                VB.NET
+                            </li>
+                            <li class="lang">
+                                Elm
+                            </li>
+                        </ul>
+                    </div>
 
-                <div id="volunteering">
-                    <h3 style="text-decoration: underline">McMaster Outreach - October 2016</h3>
-                    <p id="volunteer-desc">
-                        Volunteered with the McMaster University Outreach program
-                        over the October 2016 reading week to encourage local elementary
-                        school children to pursue studies in Computer Science. Tutored
-                        very basic elm syntax to elementary-level children.
-                    </p>
+                    <div class="volunteering">
+                        <h3 style="text-decoration: underline">McMaster Outreach - October 2016</h3>
+                        <p id="volunteer-desc">
+                            Volunteered with the McMaster University Outreach program
+                            over the October 2016 reading week to encourage local elementary
+                            school children to pursue studies in Computer Science. Tutored
+                            very basic elm syntax to elementary-level children.
+                        </p>
+                    </div>
                 </div>
             </div>
         </div>
 
-        <script src="../javascript/active_links.js"></script>
+        <script src="../js/active_links.js"></script>
     </body>
 </html>
