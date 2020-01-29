@@ -1,0 +1,86 @@
+/*
+    Style for small screens
+*/
+@media all and (max-width: 500px) {
+    /*
+    ================================== BODY ================================== 
+    */
+    body {
+        display: flex;
+        flex-direction: column;
+        flex-wrap: nowrap;
+    }
+
+    .page-body {
+        margin: auto;
+        align-items: center;
+    }
+
+    .body-content {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        width: 35em;
+    }
+
+
+
+
+    /*
+    ================================== HEADER (SIDEBAR) ================================== 
+    */  
+    .sidebar {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    #links {
+        display: inline-block;
+        height: 100%;
+    }
+
+    #profile-pic {
+        display: none;
+    }
+
+
+
+
+    /*
+    ================================== PROJECT ================================== 
+    */
+    .project-image {
+        height: auto;
+    }
+
+    .project-description {
+        overflow-wrap: break-word;
+    }
+
+    #project-list {
+        overflow-y: auto;
+        height: 100%;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+    }
+    
+    #project-description {
+        overflow-wrap: break-word;
+    }
+    
+    .project {
+        text-align: center;
+    } 
+
+
+
+
+    /*
+    ================================== INFO ================================== 
+    */
+    #volunteer-desc {
+        overflow-wrap: break-word;
+    }
+}
