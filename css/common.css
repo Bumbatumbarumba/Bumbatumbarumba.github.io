@@ -1,7 +1,8 @@
 .sidebar {
     position: -webkit-sticky;
     position: sticky;
-    top: 0
+    top: 0;
+    width: 100%;
 }
 
 #links {
@@ -28,6 +29,8 @@ body {
     background-attachment: fixed;
     background-position: center;
     background-size: cover;
+    margin: 0;
+    padding: 0;
 }
 
 .page-body {
