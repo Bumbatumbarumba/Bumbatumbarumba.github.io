@@ -244,6 +244,15 @@ button:hover {
 
 
 /*
+    MEDIUM WINDOW SIZES
+*/
+@media all and (max-width: 1100px) {
+
+}
+
+
+
+/*
     SMALL WINDOW SIZES
 */
 @media all and (max-width: 700px) {
