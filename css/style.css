@@ -43,7 +43,7 @@ a:hover {
 
 .content-item {
     box-sizing: border-box;
-    height: 60em;
+    height: 100vh;
 }
 
 .section-title {
