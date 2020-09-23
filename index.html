@@ -1,130 +1,133 @@
 <!DOCTYPE html>
 <html>
-    <head>
-        <link rel="stylesheet" type="text/css" href="css/style.css">
-        <link href="https://fonts.googleapis.com/css?family=Lora:400,700|Merriweather&display=swap" rel="stylesheet">
-    
-        <meta property="og:type" content="websites" />
-        <meta property="og:description" content="Welcome to my site!" />
-        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+<head>
+    <link rel="stylesheet" type="text/css" href="resources/styles/style.css">
+    <link rel="stylesheet" type="text/css" href="resources/styles/mobile.css">
 
-        <title>Bartosz Kosakowski</title>
-    </head>
-    <body>
-        <div id="header">
-            <a class="header-link" id="top-link" href="#top">Top</a>
-            <a class="header-link" href="#contact">Contact</a>
+    <meta property="og:type" content="websites" />
+    <meta property="og:description" content="Welcome to my site!" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Bartosz Kosakowski</title>
+</head>
+<body>
+    <div>
+        <div class="content-box" id="about">
+            <!-- include contact info here -->
+            <h1>Hello, my name is Bartosz Kosakowski</h1>
+            <p>Welcome to my website! I am a web developer for Air Whistle Media.</p>
         </div>
-        <div id="top"></div>
-        <div id="content">
-            <div id="home" class="content-item">
-                <h1>Bartosz Kosakowski</h1>
-                <p>
-                    Developer<br>
-                    Mississauga, ON
-                </p>
-                <a href="#education">Continue!</a>
+
+        <div class="content-box" id="education">
+            <div class="section-header">
+                <h2 class="section-title"><span class="toggle-section" id="education">&#9660;</span>Education</h2>
+                <hr class="section-divider">
             </div>
-            <div id="education" class="content-item">
-                <h1 class="section-title">Education</h1>
-                <div class="schools">
-                    <div class="education-item">
-                        <h2>McMaster University</h2>
-                        <h2>B.A.Sc. Honours Computer Science - April 2020</h2>
-                        <p>
-                            Graduated with co-op designation after completing degree with 20 months of work experience.
-                        </p>
-                    </div>
+            <div class="school-history-content">
+                <div class="school-history-content-box">
+                    <h3>M.Sc Computer Science - Ryerson University, Current Student</h3>
                 </div>
-                <div class="continue-container">
-                    <a class="continue" href="#employment">Continue!</a>
-                </div>
-            </div>
-            <div id="employment" class="content-item">
-                <h1 class="section-title">Employment</h1>
-                <div class="work">
-                    <div class="work-item">
-                        <h2>Ontario Financing Authority</h2>
-                        <h3>Back-end Software Developer</h3>
-                        <h3>Jan 2019 - Aug 2019</h3>
-                        <p class="job-desc">Second half of my work term at the OFA; continued to provide bug fixes and feature implementations to in-house financial software, and additionally created advertisements to social events on company portal.</p>
-                    </div>
-                    <div class="work-item">
-                        <h2>Ontario Financing Authority</h2>
-                        <h3>Back-end Software Developer</h3>
-                        <h3>Apr 2018 - Dec 2018</h3>
-                        <p class="job-desc">The start of my term at the OFA; refined maintainability of existing code by replacing in-line SQL statements with stored procedures, fixed bugs, developed new features, and created SQL procedures and tables.</p>
-                    </div>
-                    <div class="work-item">
-                        <h2>Cyclone MFG Inc.</h2>
-                        <h3>Production Planner</h3>
-                        <h3>May 2017 - Aug 2017</h3>
-                        <p class="job-desc">Created work orders and part templates to facilitate the production of aircraft components, as well as reviewed engineering documents to ensure their correctness.</p>
-                    </div>
-                </div>
-                <a href="images/resume.pdf" download>
-                    <button>Download resume!</button>
-                </a>
-                <div class="continue-container">
-                    <a class="continue" href="#projects">Continue!</a>
-                </div>
-            </div>
-            <div id="projects" class="content-item">
-                <h1 class="section-title">Projects</h1>
-                <div class="projects">
-                    <div class="project-item">
-                        <div class="project-img-container">
-                            <img class="project-img" src="images/moodbuddy.jpg">
-                        </div>
-                        <h2>Moodbuddy</h2>
-                        <p>Fourth year design project to help users track changes in their mental state as well help therapists gain insight on their patients. Collaborating with three other student developers and a professor.</p>
-                        <a class="project-link">Private repo</a>
-                    </div>
-                    <div class="project-item">
-                        <div class="project-img-container">
-                            <img class="project-img" src="images/exoplanets.png">
-                        </div>
-                        <h2>Exoplanet Visualizer</h2>
-                        <p>A webapp that uses NASA's exoplanet API to get available data on all confirmed exoplanets and displays it in a nice way.</p>
-                        <a class="project-link" href="https://github.com/Bumbatumbarumba/exoplanet-vizualizer">Go to repo</a>
-                    </div>
-                    <div class="project-item">
-                        <div class="project-img-container">
-                            <img class="project-img" src="images/todolist.jpg">
-                        </div>
-                        <h2>To Do List</h2>
-                        <p>A web app that allows for a user to create to do lists, sign in/up, and save their lists with their account. </p>
-                        <a class="project-link" href="https://github.com/Bumbatumbarumba/todolist_v2_frontend">Go to repo</a>
-                    </div>
-                    <div class="project-item">
-                        <div class="project-img-container">
-                            <img class="project-img" src="images/kevinskreations.jpg">
-                        </div>
-                        <h2>Kevin's Kreations</h2>
-                        <p>Fake online art store for a school project where the user can browse the artist's portfolio, read their biography, add items to a cart, go to a checkout, sign up for a mailing list, and contact the artist.</p>
-                        <a class="project-link">Private Repo</a>
-                    </div>
-                    <div class="project-item">
-                        <div class="project-img-container">
-                            <img class="project-img" src="images/dmscreen.PNG">
-                        </div>
-                        <h2>DM Screen</h2>
-                        <p>A desktop app that aims to streamline the experience of DnD players. Provides various utilities, such as creating and storing multiple campaigns' data, displaying battle maps, integrated music player, and many other useful features.</p>
-                        <a class="project-link" href="https://github.com/Bumbatumbarumba/DmScreenV2">Go to repo</a>
-                    </div>
-                </div>
-                <div class="continue-container">
-                    <a class="continue" href="#contact">Continue!</a>
-                </div>
-            </div>
-            <div id="contact" class="content-item">
-                <h1 class="section-title">Contact me!</h1>
-                <div id="contact-items">
-                    <a class="contact-links" href="https://github.com/Bumbatumbarumba"><img class="contact-img" src="images/GitHub-Mark-64px.png"></a>
-                    <a class="contact-links" href="https://www.linkedin.com/in/bartosz-kosakowski-4160b1137/"><img class="contact-img" src="images/LI-In-Bug.png"></a>
-                    <h2 id="email">Email: kosakowb(at)mcmaster(dot)ca</h2>
+                <div class="school-history-content-box">
+                    <h3>B.A.Sc Computer Science Co-op - McMaster University, June 2020</h3>
                 </div>
             </div>
         </div>
-    </body>
+
+        <div class="content-box" id="skills">
+            <div class="section-header">
+                <h2 class="section-title"><span class="toggle-section" id="skills">&#9660;</span>Languages, Frameworks, and Tools</h2>
+                <hr class="section-divider">
+            </div>
+            <div id="languages">
+                <h4>Languages and the like</h4>
+                <ul id="languages-list">
+                    <li class="language-list-item">C#.NET</li>
+                    <li class="language-list-item">Python</li>
+                    <li class="language-list-item">SQL</li>
+                    <li class="language-list-item">MongoDB</li>
+                    <li class="language-list-item">JavaScript</li>
+                    <li class="language-list-item">TypeScript</li> 
+                    <li class="language-list-item">Java</li>
+                </ul>
+            </div>
+            <div id="frameworks">
+                <h4>Frameworks</h4>
+                <ul id="frameworks-list">
+                    <li class="framework-list-item">React</li>
+                    <li class="framework-list-item">JQuery</li>
+                    <li class="framework-list-item">Angular</li>
+                    <li class="framework-list-item">ExpressJS</li>
+                    <li class="framework-list-item">NodeJS</li>
+                    <li class="framework-list-item">.NET Entity Framework</li>
+                    <li class="framework-list-item">.NET MVC</li>
+                </ul>
+            </div>
+            <div id="tools">
+                <h4>Tools</h4>
+                <ul id="tools-list">
+                    <li class="tool-list-item">Visual Studio</li>
+                    <li class="tool-list-item">Visual Studio Code</li>
+                    <li class="tool-list-item">SQL Server</li>
+                    <li class="tool-list-item">Unix Command Line</li>
+                    <li class="tool-list-item">Windows Terminal</li>
+                </ul>
+            </div>
+        </div>
+
+        <div class="content-box" id="employment">
+            <div class="section-header">
+                <h2 class="section-title"><span class="toggle-section" id="employment-show">&#9660;</span>Employment</h2>
+                <hr class="section-divider">
+            </div>
+            <div class="employment-history-content">
+                <div class="employment-history-content-box">
+                    <h3 id="jobtitle-company">Web Developer - <span class="italicize">Air Whistle Media</span></h3>
+                    <h3 id="duration">April 2020 to Present</h3>
+                    <p id="job-desc">Did backend and frontend stuff</p>
+                </div>
+                <div class="employment-history-content-box">
+                    <h3 id="jobtitle-company">Backend Software Developer - <span class="italicize">Ontario Financing Authority</span></h3>
+                    <h3 id="duration">April 2018 to August 2019</h3>
+                    <p id="job-desc">Did backend stuff</p>
+                </div>
+                <div class="employment-history-content-box">
+                    <h3 id="jobtitle-company">Production Planner - <span class="italicize">Cyclone Manufacturing</span></h3>
+                    <h3 id="duration">April 2017 to August 2017</h3>
+                    <p id="job-desc">Did production planner stuff</p>
+                </div>
+            </div>
+        </div>
+
+        <div class="content-box" id="projects">
+            <div class="section-header">
+                <h2 class="section-title"><span class="toggle-section" id="projects">&#9660;</span>Projects</h2>
+                <hr class="section-divider">
+            </div>
+            <div class="project-content">
+                <div class="project-content-box">
+                    <h3 class="project-title">Moodbuddy</h3>
+                    <p class="project-description">Moodbuddy is epic.</p>
+                    <a class="project-link">View on Github</a>
+                </div>
+                <div class="project-content-box">
+                    <h3 class="project-title">Playlist Collab</h3>
+                    <p class="project-description">Also epic.</p>
+                    <a class="project-link">View on Github</a>
+                </div>
+                <div class="project-content-box">
+                    <h3 class="project-title">Exoplanet Visualizer</h3>
+                    <p class="project-description">Does things.</p>
+                    <a class="project-link">View on Github</a>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script src="./resources/scripts/scripts.js"></script>
+</body>
+<footer>
+    <hr>
+    <p>put links here too?</p>
+</footer>
 </html>
