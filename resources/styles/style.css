@@ -1,4 +1,29 @@
 /* General */
+body {
+    margin-left: 5%;
+    margin-right: 5%;
+    background-color: #144955;
+    color: white;
+}
+
+.section-content {
+    display: none;
+    padding: 2%;
+    background-color: #F4F1E0;
+    color: black;
+}
+
+.content-box {
+    margin-top: 5%;
+}
+
+#main.body-content-box {
+    margin-top:10%;
+}
+
+#about.body-content-box {
+    text-align: center;
+}
 
 
 
@@ -17,4 +42,13 @@
 /* Projects */
 
 
+/* Footer */
+footer {
+    margin-top: 10%;
+    text-align: center;
+}
 
+#footer-hr {
+    margin-left: 25%;
+    margin-right: 25%;
+}

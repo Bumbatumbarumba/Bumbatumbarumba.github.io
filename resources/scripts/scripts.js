@@ -1,14 +1,14 @@
-$(document).ready(function() {
-    $(".section-header").click(function() {
-        var targetId = $(this).parent().attr("id")
-        console.log(targetId)
-        if ($(".toggle-section").attr(id) === targetId + "-show") {
-            //$(".toggle-section#" + targetId + "-show").text("&#9650;")
-            //$(".toggle-section").attr(id) = targetId + "-hide"
+function toggleSection(sectionId) {
+    $(".toggle-direction").each(function(index){
+        if ($(this).attr("id") === sectionId + "-show") {
+            $(this).text("\u25B2") 
+            $(this).attr("id", sectionId + "-hide")
+            $(".section-content#" + sectionId).show(400)
         }
-        else if ($(".toggle-section").attr(id) === targetId + "-hide") {
-            //$(".toggle-section#" + targetId + "-hide").text("&#9660;")
-            //$(".toggle-section").attr(id) = targetId + "-show"
+        else if ($(this).attr("id") === sectionId + "-hide") {
+            $(this).text("\u25BC") 
+            $(this).attr("id", sectionId + "-show")
+            $(".section-content#" + sectionId).hide(400)
         }
     })
-  });
+}
