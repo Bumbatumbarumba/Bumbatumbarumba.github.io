@@ -23,14 +23,31 @@ p, a {
     font-size: 1.5em;
 }
 
-a {
+/* a {
     text-decoration: none;
 }
 
 a:hover {
     text-decoration: underline;
     font-style: italic;
+} */
+
+a {
+    text-decoration: none;
+    background-image: linear-gradient(#144955, #144955);
+    background-size: 0% 0.1em;
+    background-position-y: 100%;
+    background-position-x: 0%;
+    background-repeat: no-repeat;
+    transition: background-size 0.2s ease-in-out;
 }
+
+a:hover,
+a:focus,
+a:active {
+    background-size: 100% 0.1em;
+}
+
 
 .content {
     display: flex;
@@ -88,7 +105,8 @@ p, .continue {
 
 #header a {
     margin-left: 2em;
-    color: white
+    color: white;
+    background-image: linear-gradient(white, white);
 }
 
 #top {
@@ -111,7 +129,8 @@ p, .continue {
 
 #home a {
     margin-top: 10%;
-    color: white
+    color: white;
+    background-image: linear-gradient(white, white);
 }
 
 
@@ -127,7 +146,11 @@ p, .continue {
 }
 
 #education .continue-container {
-    margin-top: 30%;
+    margin-top: 15%;
+}
+
+.education-item {
+    width: 80%;
 }
 
 
@@ -317,7 +340,8 @@ button:hover {
 
     #header a {
         margin-left: 1.5em;
-        color: white
+        color: white;
+        background-image: linear-gradient(white, white);
     }
 
     #top {
@@ -340,7 +364,8 @@ button:hover {
 
     #home a {
         margin-top: 50%;
-        color: white
+        color: white;
+        background-image: linear-gradient(white, white);
     }
 
 
@@ -412,6 +437,8 @@ button:hover {
     */
     #contact-items {
         margin-top: 40%;
+        display: flex;
+        flex-direction: column;
     }
 
     .contact-links {
