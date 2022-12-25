@@ -1,3 +1,7 @@
-# Bumbatumbarumba.github.io
+Personal website but made with react but not bad
 
-Visit at bartkosa.com or www.bartkosa.com
+## Available Scripts
+
+In the project directory, you can run:
+
+### `npm start`
