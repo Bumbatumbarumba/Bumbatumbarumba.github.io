@@ -1,0 +1,43 @@
+[
+    {
+        "title": "Q4 Inc",
+        "content": [
+            "Developed GQL and RESTFUL NodeJS endpoints for user and account management platform with over 10,000 registered external users, allowing for streamlined administration.",
+            "Launched development of internal tool which efficiently transfers data from source to target client site, by building out NodeJS and C# .NET endpoints and services, as well as React elements",
+            "Co-leading development of NodeJS project designed to handle peak load of nearly 3000 clients sending data for processing in a day, leveraging AWS SQS Queues, DynamoDB, and S3 buckets for maximal efficiency.",
+            "Facilitated 100% sprint success rate with team as Scrum Master by ensuring high degree of communication between fellow engineers.",
+            "Maintaining high product quality by eliminating system regressions and issues."
+        ],
+        "enableAccordian": true,
+        "subtitle": "Q4 Inc, Toronto",
+        "startDate": "Feb 2022",
+        "endDate": "Current"
+    },
+    {
+        "title": "Lead Software Engineer",
+        "content": [
+            "Initiated and led development of key projects using Angular and C# .NET, including database design and architecting API's.",
+            "Acted as liaison between development team and external stakeholders to continually gather requirements and iterate accordingly.",
+            "Managed multiple other developers to ensure coordination on tasks and regular updates on project progress.",
+            "Staged and deployed websites on Plesk using IIS.",
+            "Improved development workflow by leveraging Git integration with Azure DevOps to better organize and manage tasks"
+        ],
+        "enableAccordian": true,
+        "subtitle": "Air Whistle Media, Burlington",
+        "startDate": "Mar 2021",
+        "endDate": "Feb 2022"
+    },
+    {
+        "title": "Software Engineer",
+        "content": [
+            "Developed optimized SQL query for searching Fastco's system of users, improving search speed by 97%.",
+            "Built new Kentico CMS interface using C# .NET, and JQuery to re-establish parent-child relationship between Fastco platform users, allowing for faster client support.",
+            "Implemented new project requirements for Cambridge Home Elevating to monitor and alert users of elevator maintenance using JQuery, C# .NET, and SQL.",
+            "Proactively maintained and supported critical systems, ensuring continued longevity across several projects."
+        ],
+        "enableAccordian": true,
+        "subtitle": "Air Whistle Media, Burlington",
+        "startDate": "Apr 2020",
+        "endDate": "Mar 2021"
+    }
+]

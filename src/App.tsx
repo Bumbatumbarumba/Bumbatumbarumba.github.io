@@ -1,5 +1,3 @@
-import React from 'react';
-import './App.css';
 import {
   BrowserRouter,
   Routes,
@@ -7,8 +5,10 @@ import {
 } from "react-router-dom";
 import { Footer, Header } from './components';
 import { Main, Education, Employment, Projects, Contact } from './views';
+import './App.css';
 
 function App() {
+
   return (
     <div style={{
       padding: "3em",

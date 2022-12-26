@@ -8,7 +8,7 @@ export const Navbar = () => {
             flexDirection: "row",
             justifyContent: "space-evenly"
         }}>
-            <Link to="/"><span className="navbar-link">Main</span></Link>
+            <Link to="/"><span className="navbar-link">Home</span></Link>
             <Link to="/edu"><span className="navbar-link">Education</span></Link>
             <Link to="/emp"><span className="navbar-link">Employment</span></Link>
             <Link to="/prj"><span className="navbar-link">Projects</span></Link>

@@ -3,6 +3,6 @@
 export enum WebsiteColourHex {
     Background = "#161616",
     Font = "#ECDBBA",
-    Link = "#346751",
-    Highlight = "#C84B31",
+    Link = "#C84B31",
+    Highlight = "#346751",
 }

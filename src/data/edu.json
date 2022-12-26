@@ -1,0 +1,22 @@
+[
+    {
+        "title": "M.Sc Honours Computer Science",
+        "content": [
+            "Graduated with a specialization in Artificial Intelligence"
+        ],
+        "enableAccordian": false,
+        "subtitle": "Ryerson University",
+        "startDate": "",
+        "endDate": "Dec 2021"
+    },
+    {
+        "title": "B.A.Sc. Honours Computer Science",
+        "content": [
+            "Graduated with co-op designation after completing degree with 20 months of work experience."
+        ],
+        "enableAccordian": false,
+        "subtitle": "McMaster University",
+        "startDate": "",
+        "endDate": "Apr 2020"
+    }
+]

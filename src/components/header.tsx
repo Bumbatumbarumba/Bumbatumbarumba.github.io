@@ -2,17 +2,14 @@ import React from "react";
 import { Navbar } from "./navbar";
 
 export const Header = () => {
+    /*
+        note to self: this might look redundant but that's only because originally
+        this contained some additional stuff that I later decided was not ideal to
+        keep. 
+    */
     return (
-        <div
-            className="header"
-            style={{
-                display: "flex",
-                flexDirection: "row",
-                justifyContent: "space-between",
-                alignItems: "center"
-            }}>
-            <h1 className="title">Bartosz Kosakowski</h1>
-            <div style={{ width: "50%" }}>
+        <div className="header">
+            <div style={{ width: "100%" }}>
                 <Navbar />
             </div>
         </div>
