@@ -5,6 +5,7 @@ export interface InfoBlockProps {
     subtitle?: string;
     startDate?: string;
     endDate?: string;
+    imgSrc?: string;
 }
 
 export interface InfoBlockCollection {

@@ -1,4 +1,4 @@
-import React, { useEffect } from "react";
+import React from "react";
 import { InfoBlock } from "../components/infoBlock";
 import { InfoBlockProps } from "../definitions";
 import eduData from "../data/edu.json";

@@ -1,10 +1,61 @@
 [
     {
-        "title": "",
-        "content": [""],
-        "enableAccordian": "",
-        "subtitle": "",
-        "startDate": "",
-        "endDate": ""
+        "title": "Fast Soft Colour Segmentation",
+        "content": [
+            "Neural network based method for segmenting images into separate layers specified by an input colour palette.",
+            "This approach achieves results comparable to state-of-the-art models but 300,000 times faster."
+        ],
+        "enableAccordian": true,
+        "subtitle": "Python, Scikit Learn, Numpy, Pytorch",
+        "startDate": "Mar 2021",
+        "endDate": "Apr 2021",
+        "imgSrc": "../images/cseg.png"
+    },
+    {
+        "title": "Pong Agent with Deep Q-Learning",
+        "content": [
+            "Deep Q-learning and double deep Q-learning algorithms to teach an agent to succeed in Pong.",
+            "Pong agent surpasses human average score difference by 10 point."
+        ],
+        "enableAccordian": true,
+        "subtitle": "Pytorch, OpenAI Gym, NumPy, pyglet, Matplotlib ",
+        "startDate": "Feb 2021",
+        "endDate": "Apr 2021",
+        "imgSrc": "../images/pong.jpg"
+    },
+    {
+        "title": "Naive Bayes Spam Email ClassifieR",
+        "content": [
+            "Spam email classifier using Naïve Bayes algorithm with an accuracy of 97.8%."
+        ],
+        "enableAccordian": true,
+        "subtitle": "Python, Scikit Learn, Numpy, Pandas",
+        "startDate": "Dec 2020",
+        "endDate": "Dec 2020",
+        "imgSrc": "../images/spam.png"
+    },
+    {
+        "title": "Exoplanet Habitability Classifier",
+        "content": [
+            "Developed Naïve Bayes and Logistic Regression machine learning models to classify exoplanets as either potentially habitable or non-habitable.",
+            "Used combination of Pandas and Numpy to transform raw data from NASA's open exoplanet datasets into parsed dataframes."
+        ],
+        "enableAccordian": true,
+        "subtitle": "Python, Scikit Learn, Numpy, Pandas",
+        "startDate": "Oct 2020",
+        "endDate": "Dec 2020",
+        "imgSrc": "../images/exop.jpg"
+    },
+    {
+        "title": "Moodbuddy",
+        "content": [
+            "Parsed users' journal entries using sentiment analysis API to allow for monitoring trends in mental health.",
+            "Allowed users to share entry data with mental healthcare practitioners to facilitate therapy sessions."
+        ],
+        "enableAccordian": true,
+        "subtitle": " React, Typescript, GraphQL, MongoDB ",
+        "startDate": "Sept 2019",
+        "endDate": "Mar 2020",
+        "imgSrc": "../images/mood.jpg"
     }
 ]
