@@ -6,8 +6,22 @@ import {
 import { Footer, Header } from './components';
 import { Main, Education, Employment, Projects, Contact } from './views';
 import './App.css';
+import { useState, useEffect } from "react";
 
 function App() {
+  const [width, setWindowWidth] = useState(0);
+
+  useEffect(() => {
+    updateDimensions();
+    window.addEventListener("resize", updateDimensions);
+    return () =>
+      window.removeEventListener("resize", updateDimensions);
+  }, []);
+
+  const updateDimensions = () => {
+    const width = window.innerWidth;
+    setWindowWidth(width);
+  };
 
   return (
     <div style={{
@@ -18,7 +32,7 @@ function App() {
           display: "flex",
           flexDirection: "column",
         }}>
-          <Header />
+          <Header viewWidth={width} />
           <Routes>
             <Route path="/" element={<Main />} />
             <Route path="/edu" element={<Education />} />

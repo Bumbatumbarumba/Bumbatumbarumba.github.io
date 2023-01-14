@@ -24,7 +24,7 @@
         "imgSrc": "../images/pong.jpg"
     },
     {
-        "title": "Naive Bayes Spam Email ClassifieR",
+        "title": "Naive Bayes Spam Email Classifier",
         "content": [
             "Spam email classifier using Naïve Bayes algorithm with an accuracy of 97.8%."
         ],

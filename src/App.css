@@ -31,6 +31,7 @@ body {
 
 .header {
     height: 10%;
+    color: #c84b31;
 }
 
 .content {
@@ -56,6 +57,7 @@ body {
 
 .info-title {
     text-decoration: underline;
+    color: #e8c98a;
 }
 
 li {
@@ -81,3 +83,15 @@ img {
 }
 
 /* ========= MOBILE STYLE ========= */
+@media only screen and (max-width: 1023px) {
+    .content {
+        height: 80%;
+        margin-left: 0.5em;
+        margin-right: 0.5em;
+        align-self: center;
+        padding-top: 1em;
+        padding-left: 2vw;
+        padding-right: 2vw;
+        font-size: large;
+    }
+}
