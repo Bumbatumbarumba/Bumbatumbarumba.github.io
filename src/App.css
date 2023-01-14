@@ -4,14 +4,14 @@ body {
     font-family: "Fira Code", monospace;
 }
 
-a {
+.navbar-link {
     display: inline-block;
     position: relative;
     color: #c84b31;
     text-decoration: none;
 }
 
-a::after {
+.navbar-link::after {
     content: "";
     position: absolute;
     width: 100%;
@@ -24,7 +24,7 @@ a::after {
     transition: transform 0.1s ease-out;
 }
 
-a:hover::after {
+.navbar-link:hover::after {
     transform: scaleX(1);
     transform-origin: bottom left;
 }
@@ -73,6 +73,11 @@ img {
 
 .active {
     color: #48be8b;
+}
+
+.contact-email {
+    text-decoration: underline;
+    color: #ecdbba;
 }
 
 /* ========= MOBILE STYLE ========= */
