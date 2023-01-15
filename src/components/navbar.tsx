@@ -88,12 +88,13 @@ export const Navbar = (props: NavBarProps) => {
                         }
                     }}>
                     <DrawerHeader>
-                        <div onClick={toggleDrawer(false)}><RightCaret /></div>
+                        <div style={{ marginTop: "1em" }} onClick={toggleDrawer(false)}><RightCaret /></div>
                     </DrawerHeader>
                     <div style={{
                         display: "flex",
                         flexDirection: "column",
-                        alignItems: "center"
+                        alignItems: "center",
+                        marginTop: "1em"
                     }}>
                         {buildLinkTos()}
                     </div>
