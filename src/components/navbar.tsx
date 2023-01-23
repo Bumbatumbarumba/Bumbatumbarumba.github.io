@@ -11,7 +11,8 @@ export const Navbar = (props: NavBarProps) => {
         { location: "/edu", name: "edu", text: "Education" },
         { location: "/emp", name: "emp", text: "Employment" },
         { location: "/prj", name: "prj", text: "Projects" },
-        { location: "/ctt", name: "ctt", text: "Contact" },];
+        { location: "/ctt", name: "ctt", text: "Contact" },
+        { location: "/oth", name: "oth", text: "Other" },];
     const [drawerState, setDrawerState] = useState(false);
 
     const toggleDrawer =

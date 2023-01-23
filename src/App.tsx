@@ -1,12 +1,12 @@
+import { useState, useEffect } from "react";
 import {
   BrowserRouter,
   Routes,
   Route
 } from "react-router-dom";
 import { Footer, Header } from './components';
-import { Main, Education, Employment, Projects, Contact } from './views';
+import { Main, Education, Employment, Projects, Contact, Other } from './views';
 import './App.css';
-import { useState, useEffect } from "react";
 
 function App() {
   const [width, setWindowWidth] = useState(0);
@@ -39,6 +39,7 @@ function App() {
             <Route path="/emp" element={<Employment />} />
             <Route path="/prj" element={<Projects />} />
             <Route path="/ctt" element={<Contact />} />
+            <Route path="/oth" element={<Other />} />
           </Routes>
           <Footer />
         </div>
