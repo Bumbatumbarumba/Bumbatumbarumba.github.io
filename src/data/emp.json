@@ -2,11 +2,10 @@
     {
         "title": "Full Stack Engineer",
         "content": [
-            "Developed GQL and RESTFUL NodeJS endpoints for user and account management platform with over 10,000 registered external users, allowing for streamlined administration.",
-            "Launched development of internal tool which efficiently transfers data from source to target client site, by building out NodeJS and C# .NET endpoints and services, as well as React elements",
-            "Co-leading development of NodeJS project designed to handle peak load of nearly 3000 clients sending data for processing in a day, leveraging AWS SQS Queues, DynamoDB, and S3 buckets for maximal efficiency.",
-            "Facilitated nearly 100% sprint success rate with team as Scrum Master by ensuring high degree of communication between fellow engineers.",
-            "Maintaining high product quality by eliminating system regressions and issues."
+            "Led the integration of Auth0 login into a legacy mailing list form, contributing to architecture meetings to plan the solution and optimize the app's user authentication process.",
+"Developed GraphQL and RESTFUL NodeJS endpoints for user and account management platform with over 10,000 registered external users, allowing for streamlined administration.",
+"Engineered dynamic, user-friendly pages and views with React, enhancing experiences for both internal users and clients.",
+"Key member of a deployment initiative, providing training and documentation to standardize code deployment for engineering teams."
         ],
         "enableAccordian": true,
         "subtitle": "Q4 Inc, Toronto",
